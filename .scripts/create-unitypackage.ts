@@ -7,8 +7,17 @@ const pkg_root = "Assets/_Gizmo/UdonOTPLib";
 const pkg_name = "UdonOTPLib";
 const release_dir = ".release";
 
-const pkg = new unitypackage(path);
+const license_meta = `fileFormatVersion: 2
+guid: a5ec2b668e27a9945b38e41c39d4fb51
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+`;
 
+const pkg = new unitypackage(path);
+await Deno.writeFile("LICENSE.meta", new TextEncoder().encode(license_meta));
 for await (const f of traverse(path)) await pkg.addFile(f, { root: pkg_root });
 
 const filename = `${pkg_name}${await version()}.unitypackage`;
