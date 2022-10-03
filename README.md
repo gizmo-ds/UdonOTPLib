@@ -4,6 +4,8 @@ VRChat Udon OTP Library, HOTP([RFC 4226](https://tools.ietf.org/html/rfc4226)) &
 
 [Demo world](https://vrchat.com/home/launch?worldId=wrld_1590a2c1-7f17-40b7-a71c-b90b542a204c)
 
+[![thumbnail](https://i.imgur.com/pPMESvY.jpg)](https://twitter.com/GizmoOAO/status/1576874449973915648)
+
 ## Requirements
 
 - Unity 2019.4.31f1
