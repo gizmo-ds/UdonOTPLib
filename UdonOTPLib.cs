@@ -15,7 +15,6 @@ public class UdonOTPLib : UdonSharpBehaviour
     int code = bytes2int32(bytes);
     code &= 0x7FFFFFFF;
     code %= int32Power(10, d);
-    this.SendCustomEvent("");
     return code.ToString().PadLeft(d, '0');
   }
 
