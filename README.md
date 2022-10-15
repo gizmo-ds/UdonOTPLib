@@ -18,7 +18,7 @@ VRChat Udon OTP Library, HOTP([RFC 4226](https://tools.ietf.org/html/rfc4226)) &
 > Contains a simple example that you can use however you want.
 
 1. Make sure you have imported the latest [VRCSDK3](https://vrchat.com/home/download), [UdonSharp](https://github.com/MerlinVR/UdonSharp) and [UdonHashLib](https://github.com/Gorialis/vrchat-udon-hashlib).
-2. Download the latest [release](https://github.com/GizmoOAO/UdonOTPLib/releases/latest) and import it into your project.
+2. Download the latest [release](https://github.com/gizmo-ds/UdonOTPLib/releases/latest) and import it into your project.
 3. Open the `_Gizmo/UdonOTPLib/Example/TOTP_Example.unity` scene.
 4. You may need to import `TextMeshPro`.
 5. Edit the `Secret` variable in the `TOTP_Example` gameobject. (You can use [totp-wasm.vercel.app](https://totp-wasm.vercel.app) to generate `Secret`)
