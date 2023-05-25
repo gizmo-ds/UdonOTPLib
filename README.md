@@ -55,6 +55,7 @@ Debug.Log($"Countdown: {s}sec");
 ## Related
 
 - [totp-wasm](https://github.com/gizmo-ds/totp-wasm)
+- [totp-wasm-zig](https://github.com/gizmo-ds/totp-wasm-zig)
 - [UdonSharp](https://github.com/MerlinVR/UdonSharp)
 - [UdonHashLib](https://github.com/Gorialis/vrchat-udon-hashlib)
 
