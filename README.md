@@ -2,6 +2,9 @@
 
 VRChat Udon OTP Library, HOTP([RFC 4226](https://tools.ietf.org/html/rfc4226)) & TOTP([RFC 6238](https://tools.ietf.org/html/rfc6238)).
 
+> [!Caution]  
+> This project is a personal learning exercise and serves as a demonstration of my learning outcomes. It is not intended for production environments or serious business applications. Use the code in this project at your own risk.
+
 [Demo world](https://vrchat.com/home/launch?worldId=wrld_1590a2c1-7f17-40b7-a71c-b90b542a204c)
 
 👇 Example video
