@@ -19,7 +19,7 @@ public class TOTP_Example : UdonSharpBehaviour
 
   public void Enter()
   {
-    string code = _udonOTPLib.TOTP(secret, _udonOTPLib.Timestamp(), digits, period);
+    string code = _udonOTPLib.TOTP(secret, UdonOTPLib.Timestamp(), digits, period);
     if (_code.Equals(code))
     {
       // Authorization allowed
@@ -45,7 +45,7 @@ public class TOTP_Example : UdonSharpBehaviour
 
   public void FixedUpdate()
   {
-    _countdown.value = (float)_udonOTPLib.Countdown(period) / period;
+    _countdown.value = (float)UdonOTPLib.Countdown(period) / period;
   }
 
   private void _input(string s)
